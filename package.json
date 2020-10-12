@@ -1,0 +1,19 @@
+{
+  "name": "sets-math",
+  "version": "1.0.0",
+  "description": "this package has been built to simplify the algorithm behind the intersection or union of two sets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsham-azami/sets-math.git"
+  },
+  "author": "arsham aazami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsham-azami/sets-math/issues"
+  },
+  "homepage": "https://github.com/arsham-azami/sets-math#readme"
+}
