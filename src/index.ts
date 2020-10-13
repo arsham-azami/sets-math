@@ -1,7 +1,7 @@
 import Union from './algorithm/union'
 import Interscetion from './algorithm/inersection'
 
-export {
+export default {
     Union,
     Interscetion
 }
