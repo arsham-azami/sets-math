@@ -20,6 +20,10 @@ export default class Union{
         }
         return this.newArr
     }
+
+    setUnion(): number[]{
+        return this.union()
+    }
 }
 
 // const setOne = new Union([23, 54, 65], [63, 88, 12])

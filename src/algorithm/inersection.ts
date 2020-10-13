@@ -9,7 +9,7 @@ export default class Intersection{
        this.newArr=[]
     }
 
-    private intersection(){
+    private intersection(): number[]{
         for (let x = 0; x < this.arrOne.length; x++) { 
 			if (this.arrTwo.includes(this.arrOne[x])) {
 				this.newArr.push(this.arrOne[x]);
@@ -18,4 +18,9 @@ export default class Intersection{
 		return this.newArr;
 	
     }
+
+    setIntersection(): number[]{
+        return this.intersection()
+    }
+
 }
